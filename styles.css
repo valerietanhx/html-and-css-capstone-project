@@ -1,0 +1,168 @@
+* {
+    font-family: 'Gaegu', cursive;
+    font-weight: 400;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.first-section {
+    background-color: #ffc7ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 80px); /* 80px = height of navbar */
+}
+
+.second-section {
+    background-color: #fb9ec4;
+    height: calc(100vh - 80px); /* 80px = height of navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-text {
+    width: 775px;
+}
+
+.icon {
+    width: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 25px;
+    background-color: #ffdac0;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-not-icon {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #8865ff;
+}
+
+a:hover {
+    color: #7851fb;
+}
+
+a:active {
+    color: #693bff;
+}
+
+.nav-not-icon-link {
+    font-size: 25px;
+}
+
+.intro {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 48px;
+}
+
+h2, span {
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.body-h1 {
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+    font-size: 28px;
+}
+
+.experience {
+    font-size: 20px;
+}
+
+.scroll {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 30px;
+    background: #ff6fa5;
+    padding: 18px;
+    width: 300px;
+    margin-top: 18px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: 1em;
+    list-style-type: '♡';
+ }
+
+ fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fb9ec4;
+    border: none;
+    border-radius: 30px;
+    width: 375px;
+    height: 440px;
+    text-align: center;
+    font-size: 20px;
+ }
+
+ .single-line {
+    display: block
+}
+
+textarea {
+    resize: none;
+}
+
+.form-header {
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.purpose {
+    margin: 10px;
+}
+
+.text-field, .textbox-header {
+    margin-bottom: 5px;
+}
+
+.form-submit {
+    background-color: #ff6fa5;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}

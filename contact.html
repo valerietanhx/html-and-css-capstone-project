@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌷</text></svg>">
+    <title>Valerie's Internet Home ˗ˋˏ ♡ ˎˊ˗</title>
+</head>
+<body>
+    <nav>
+        <a href="/index.html" class="hidden-link">
+            <img src="images/icon.png" alt="Icon" class="icon">
+        </a>
+        <div class="nav-not-icon">
+            <a href="/experience.html" class="nav-not-icon-link">Experience</a>
+            <a href="/inspirations.html" class="nav-not-icon-link">Inspirations</a>
+            <a href="/contact.html" class="nav-not-icon-link">Contact</a>
+        </div>
+    </nav>
+    <div class="first-section">
+        <form target="_blank" action="/form-submitted.html" method="post">
+            <fieldset>
+            <div>
+                <label for="name" class="single-line form-header">Name:</label>
+                <input type="text" id="name" name="name" size="30" class="text-field">
+            </div>
+
+            <div>
+                <label for="email" class="single-line form-header">Email:</label>
+                <input type="email" id="email" name="email" size="30" class="text-field">
+            </div>
+            
+            <div class="purpose">
+                <p class="form-header">What's up?</p>
+                <div>
+                    <label for="internship">
+                        <input type="checkbox" id="internship" name="internship" value="Internship opportunity">Internship opportunity
+                    </label>
+                </div>
+
+                <div>
+                    <label for="freelance">
+                        <input type="checkbox" id="freelance" name="freelance" value="Freelance opportunity">Freelance opportunity
+                    </label>
+                </div>
+
+                <div>
+                    <label for="feedback">
+                        <input type="checkbox" id="feedback" name="feedback" value="Feedback">Feedback
+                    </label>
+                </div>
+
+                <div>
+                    <label for="saying-hello">
+                        <input type="checkbox" id="saying-hello" name="saying-hello" value="Just saying hello">Just saying hello
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <label for="textbox" class="single-line form-header textbox-header">Talk away!</label>
+                <textarea id="textbox" name="textbox" rows="4" cols="30"></textarea>
+            </div>
+        
+            <div>
+                <button type="submit" class="form-submit" onclick="window.location.href = '/form-submitted.html'">Whoosh!</button>
+            </div>
+        
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
