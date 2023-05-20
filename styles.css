@@ -51,16 +51,16 @@ nav {
     justify-content: space-between;
 }
 
-a {
+.purple-link {
     text-decoration: none;
     color: #8865ff;
 }
 
-a:hover {
+.purple-link:hover {
     color: #7851fb;
 }
 
-a:active {
+.purple-link:active {
     color: #693bff;
 }
 
