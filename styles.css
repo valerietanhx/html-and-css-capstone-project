@@ -18,6 +18,15 @@ body, html {
     height: calc(100vh - 80px); /* 80px = height of navbar */
 }
 
+.inspo-page {
+    height: 125vh;
+
+    /* not a good solution / design tbh;
+    find way of standardising gap between navbar and text
+    while also allowing for first-section / second-section
+    maybe the problem is trying to generalise too much? */
+}
+
 .second-section {
     background-color: #fb9ec4;
     height: calc(100vh - 80px); /* 80px = height of navbar */
@@ -165,4 +174,50 @@ textarea {
     height: 30px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.inspirations {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.inspo-card {
+    text-align: center;
+    margin: 0px 40px;
+    margin-top: 20px;
+}
+
+.top-row {
+    margin-bottom: 20px;
+}
+
+.inspo-image {
+    width: 200px;
+    height: 200px;
+}
+
+.inspo-image a {
+    display: block;
+    width: 0px;
+    height: 0px;
+}
+
+.inspo-image img {
+    border-radius: 20px;
+}
+
+.inspo-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.inspo-name p {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ff6fa5;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 25px;
 }
