@@ -170,10 +170,18 @@ textarea {
     background-color: #ff6fa5;
     border: none;
     border-radius: 20px;
-    width: 90px;
+    width: 125px;
     height: 30px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #f85b95;
+}
+
+.form-submit:active {
+    background-color: #fa4487;
 }
 
 .inspirations {
