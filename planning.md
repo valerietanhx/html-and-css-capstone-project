@@ -7,18 +7,18 @@
 - ![#ffc7ba](https://placehold.co/15x15/ffc7ba/ffc7ba.png) #ffc7ba
 
 
-# Page 1 wireframe
+# Page 1 wireframe (Homepage)
 
 ![Page 1 wireframe](planning-images/page-1.png)
 
-# Page 2 Wireframe
+# Page 2 wireframe (Contact)
 
 ![Page 2 wireframe](planning-images/page-2.png)
 
-# Page 3 wireframe
+# Page 3 wireframe (Experience)
 
 ![Page 3 wireframe](planning-images/page-3.png)
 
-# Page 4 wireframe
+# Page 4 wireframe (Inspirations)
 
 ![Page 4 wireframe](planning-images/page-4.png)
