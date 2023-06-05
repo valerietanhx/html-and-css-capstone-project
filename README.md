@@ -25,9 +25,10 @@ The requirements of the project are as follows:
   - Navigation Bar linking to all 4 pages
   - 1 header using H1
   - 1 ordered or unordered list of links to 5 other websites
+    - _(Note: I opted not to link to other websites.)_
 - Page 4
   - Navigation Bar linking to all 4 pages
   - 1 header using H1
   - 6 images displayed 3 wide and 2 down
   - A label for each image
-  - Clicking on the image opens the source of that image in a new window
+    - Clicking on the image opens the source of that image in a new window
