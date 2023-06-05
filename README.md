@@ -1,5 +1,8 @@
 # HTML and CSS Capstone Project for App Academy Open
-This is a website built with just HTML and CSS as part of App Academy Open's HTML and CSS Capstone Project. It is **not** a final, official personal website; rather, it has been built for the purpose of learning, as well as exploring what I would like my real portfolio website to look like.
+This is a website built with just HTML and CSS as my HTML & CSS capstone project
+for App Academy Open's Web Development Fundamentals course. It is **not** a final,
+official personal website; rather, it has been built for the purpose of learning,
+as well as exploring what I would like my real portfolio website to look like.
 
 The requirements of the project are as follows:
 
